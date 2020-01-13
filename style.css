@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: salmon;
+	background-image: url(images/bg-intro-desktop.png);
+	height: 100%;
+}
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.text-white{
+	color: white;
+}
+.box-bigs{
+	height : 90%;
+	margin-top: 5%;
+}
+
+footer{
+	height: 5%;
+}
+
+.outer{
+	text-align: center;
+
+
+}
+
+.bg-purple{
+	background-color: hsl(248, 32%, 49%);
+}
+
+.bg-white{
+	background-color: white;
+	/*display: inline-block;*/
+	padding: 10px;
+}
+/*.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;  Should be removed. Only for demonstration 
+}
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+/*
+.row{
+	display: flex;
+}
+.column {
+	flex: 50%;
+	padding: 10px;
+}*/
+
+/*
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+form input, form button {
+	display: block;
+}
+*/
